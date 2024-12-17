@@ -1,0 +1,146 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	width: 80%;
+	margin: 20px auto;
+	background-color: #e9d492;
+}
+
+.container img {
+	width: 100%;
+}
+
+.container h1 {
+	text-align: center;
+	margin: 20px;
+}
+
+.minicon {
+	width: 80%;
+	margin: 20px auto;
+	border: 5px groove gray;
+}
+
+
+.left{
+	width: 70%;
+	float: left;
+}
+
+.left .head{
+	width: 100%;
+	background-color: #41642e;
+	padding: 15px;
+}
+
+.head img{
+	width: 100px;
+	height: 80px;
+}
+
+.head p , .head h1 {
+	display: inline-block;
+}
+
+.head p {
+	color: yellow;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+}
+
+.head h1 {
+	color: red;
+	margin-left: 15px;
+	font-size: 60px;
+}
+
+.head h1::after{
+	content: " (17 reviews total)";
+	font-size: 16px;
+	color: white;
+}
+
+.squar, .char{
+	padding: 15px;
+}
+.squar img , .char img {
+	width: 30px;
+}
+
+.squar p , .char p{
+	width: 43%;
+	display: inline-block;
+	margin: 10px;
+	border: 1px solid gray;
+	background-color: #e1d697;
+	padding: 6px;
+}
+
+.char p {
+	border: 0;
+	background-color: transparent;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+
+.right{
+	width: 26.4%;
+	float: right;
+}
+
+
+.content{
+	padding: 10px;
+	background-color: #a2b964;
+}
+
+.content .ident {
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
+
+.clear{
+	clear: both;
+	background-color: #a2b964;
+	text-align: center;
+	padding: 15px;
+}
+
+.map{
+	position: absolute;
+	top: 185%;
+    right: 11%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

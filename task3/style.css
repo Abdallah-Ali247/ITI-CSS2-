@@ -1,0 +1,88 @@
+
+.container{
+	width: 35%;
+	margin: 50px auto;
+	border: 1px solid blue;
+	padding: 10px;
+}
+
+.login{
+	margin-bottom: 60px;
+}
+
+.login p {
+	padding: 10px;
+	width: 40%;
+	*text-align: center;
+	font-weight: bold;
+	color: white;
+}
+
+.login p img{
+	vertical-align: middle;
+}
+
+.login > p:nth-child(1){
+	float: left; 
+	background-color: #3b5999;
+	
+}
+
+.login > p:nth-child(2){
+	float: right; 
+	background-color: #00aaea;
+}
+
+.clear{
+    clear: both;
+    text-align: center;
+    display: inline-block;
+    background-color: gray;
+    color: white;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    margin: 50px auto ;
+    font-weight: bold;
+
+}
+
+input[type="text"],
+input[type="password"]{
+	display: block;
+	width: 100%;
+	margin: 10px auto;
+	height: 40px;
+}
+
+.form p:first-of-type{
+	float: left;
+	 
+}
+
+.form p:last-of-type{
+	float: right;
+	 
+}
+
+input[type='submit']{
+	clear: both;
+	display: block;
+	width: 100%;
+	margin: 10px auto;
+	height: 40px;
+	background-color: #3b5999;
+	font-weight: bold;
+	color: white;
+	border: 0;
+}
+
+.end{
+	text-align: center;
+}
+
+.end::after{
+	content: "Sign up now!";
+	color: blue;
+}

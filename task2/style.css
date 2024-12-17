@@ -1,0 +1,71 @@
+
+
+
+body{
+	background-image: url("imgs/cover.png");
+}
+
+.container{
+	width: 90%;
+	margin: 10px auto;
+	padding: 10px;
+	text-align: center;
+}
+
+.head{
+	color: #7aa104;
+}
+
+.head p::after{
+	content: " Project feederWatch.";
+	color: brown;
+}
+
+
+.content{
+	border-bottom: 4px dotted brown;
+	border-top: 4px dotted brown;
+	padding: 15px 0;
+}
+
+.block{
+	display: inline-block;
+	width: 25%;
+	padding: 10px;
+}
+
+.block > p:first-of-type {
+	color: brown;
+}
+
+.block p:nth-child(3) {
+	color: #7aa104;
+}
+
+.footer p:first-of-type{
+	color: #7aa104;
+	font-size: 30px;
+	font-style: italic;
+}
+
+.footer p:nth-child(2){
+	color: brown;
+	font-style: italic;
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

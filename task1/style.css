@@ -1,0 +1,149 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+body{
+	background-image: url('imgs/cover.png');
+}
+
+.container {
+	width: 60%;
+	margin: 10px auto;
+	border: 10px groove gray;
+	background-color: white;
+}
+
+.container2 {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.container2 > *{
+	background-color: pink;
+	border: 2px solid black;
+	width: 100%;
+	margin: 10px auto;
+	padding: 20px;
+}
+
+.head{
+	text-align: center;
+
+}
+
+.head img {
+	width: 10%;
+}
+
+.head p{
+	display: inline-block;
+	font-size: 25px;
+	width: 60%;
+ font-family: "Meie Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+	
+}
+
+.link{
+	color: red;
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-color: red;
+}
+
+
+.content div {
+	width: 80%;
+	margin: 0 auto;
+}
+
+h2{
+	text-decoration: underline;
+	margin: 15px 0;
+}
+
+
+.content > div > p:first-of-type::before {
+    content: "Terp Calculators Inc.";
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.content div p{
+	font-family: "Courier New";
+	font-style:italic;
+}
+
+
+.content > div > p.calc {
+    color: red;
+    text-decoration: underline;
+    font-style: italic;
+    margin: 10px; 
+}
+
+.calc img {
+	width: 15px;
+	height: 15px;
+}
+
+
+.end{
+	text-align: center;
+	border: 0;
+}
+
+
+
+
+.playwrite-gb-j-guides-regular {
+  font-family: "Playwrite GB J Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.playwrite-gb-j-guides-regular-italic {
+  font-family: "Playwrite GB J Guides", cursive;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
